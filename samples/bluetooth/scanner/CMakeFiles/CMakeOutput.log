@@ -1,0 +1,328 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 4.13.0-41-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Performing C SOURCE FILE Test toolchain_is_ok succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_827a8"
+[1/2] Building C object CMakeFiles/cmTC_827a8.dir/src.c.obj
+[2/2] Linking C executable cmTC_827a8
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostartfiles succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d96f0"
+[1/2] Building C object CMakeFiles/cmTC_d96f0.dir/src.c.obj
+[2/2] Linking C executable cmTC_d96f0
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nodefaultlibs succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_117c1"
+[1/2] Building C object CMakeFiles/cmTC_117c1.dir/src.c.obj
+[2/2] Linking C executable cmTC_117c1
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostdlib succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_297d8"
+[1/2] Building C object CMakeFiles/cmTC_297d8.dir/src.c.obj
+[2/2] Linking C executable cmTC_297d8
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_static succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_66be0"
+[1/2] Building C object CMakeFiles/cmTC_66be0.dir/src.c.obj
+[2/2] Linking C executable cmTC_66be0
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_no_pie succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2046f"
+[1/2] Building C object CMakeFiles/cmTC_2046f.dir/src.c.obj
+[2/2] Linking C executable cmTC_2046f
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3bc56"
+[1/2] Building C object CMakeFiles/cmTC_3bc56.dir/src.c.obj
+[2/2] Linking C executable cmTC_3bc56
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_e51a1"
+[1/2] Building C object CMakeFiles/cmTC_e51a1.dir/src.c.obj
+[2/2] Linking C executable cmTC_e51a1
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_db531"
+[1/2] Building C object CMakeFiles/cmTC_db531.dir/src.c.obj
+[2/2] Linking C executable cmTC_db531
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_strict_overflow_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d05ca"
+[1/2] Building C object CMakeFiles/cmTC_d05ca.dir/src.c.obj
+[2/2] Linking C executable cmTC_d05ca
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_pointer_sign_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_95a51"
+[1/2] Building C object CMakeFiles/cmTC_95a51.dir/src.c.obj
+[2/2] Linking C executable cmTC_95a51
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_unused_but_set_variable_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b54e1"
+[1/2] Building C object CMakeFiles/cmTC_b54e1.dir/src.c.obj
+[2/2] Linking C executable cmTC_b54e1
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_16902"
+[1/2] Building C object CMakeFiles/cmTC_16902.dir/src.c.obj
+[2/2] Linking C executable cmTC_16902
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_8dd85"
+[1/2] Building C object CMakeFiles/cmTC_8dd85.dir/src.c.obj
+[2/2] Linking C executable cmTC_8dd85
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_74bc5"
+[1/2] Building C object CMakeFiles/cmTC_74bc5.dir/src.c.obj
+[2/2] Linking C executable cmTC_74bc5
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__X succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_46609"
+[1/2] Building C object CMakeFiles/cmTC_46609.dir/src.c.obj
+[2/2] Linking C executable cmTC_46609
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__N succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_4cfab"
+[1/2] Building C object CMakeFiles/cmTC_4cfab.dir/src.c.obj
+[2/2] Linking C executable cmTC_4cfab
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___gc_sections succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b5890"
+[1/2] Building C object CMakeFiles/cmTC_b5890.dir/src.c.obj
+[2/2] Linking C executable cmTC_b5890
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___build_id_none succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_a3c25"
+[1/2] Building C object CMakeFiles/cmTC_a3c25.dir/src.c.obj
+[2/2] Linking C executable cmTC_a3c25
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d77bf"
+[1/2] Building C object CMakeFiles/cmTC_d77bf.dir/src.c.obj
+[2/2] Linking C executable cmTC_d77bf
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_85e17"
+[1/2] Building C object CMakeFiles/cmTC_85e17.dir/src.c.obj
+[2/2] Linking C executable cmTC_85e17
+/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___print_memory_usage succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_a6907"
+[1/2] Building C object CMakeFiles/cmTC_a6907.dir/src.c.obj
+[2/2] Linking C executable cmTC_a6907
+Memory region         Used Size  Region Size  %age Used/home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+
+
+Source file was:
+int main(void) { return 0; }
+The system is: Linux - 4.15.0-43-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/swap/directory/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/swap/zephyr/samples/bluetooth/scanner/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+

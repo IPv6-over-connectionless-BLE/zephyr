@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/gconf.dir/gconf.c.o CMakeFiles/gconf.dir/zconf.tab.c.o  -o gconf -lglade-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxml2 -Wl,--export-dynamic 

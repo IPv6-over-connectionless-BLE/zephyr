@@ -1,0 +1,9 @@
+/home/swap/zephyr/build/CMakeFiles/rebuild_cache.dir
+/home/swap/zephyr/build/CMakeFiles/edit_cache.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/edit_cache.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/conf.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/rebuild_cache.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/mconf.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/qconf.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/gconf.dir
+/home/swap/zephyr/build/kconfig/CMakeFiles/qconf_autogen.dir

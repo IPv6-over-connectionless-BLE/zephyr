@@ -1,0 +1,249 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 4.13.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Performing C SOURCE FILE Test toolchain_is_ok succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_390d2"
+[1/2] Building C object CMakeFiles/cmTC_390d2.dir/src.c.obj
+[2/2] Linking C executable cmTC_390d2
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostartfiles succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_89280"
+[1/2] Building C object CMakeFiles/cmTC_89280.dir/src.c.obj
+[2/2] Linking C executable cmTC_89280
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nodefaultlibs succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_54ab0"
+[1/2] Building C object CMakeFiles/cmTC_54ab0.dir/src.c.obj
+[2/2] Linking C executable cmTC_54ab0
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostdlib succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_99290"
+[1/2] Building C object CMakeFiles/cmTC_99290.dir/src.c.obj
+[2/2] Linking C executable cmTC_99290
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_static succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_95b8b"
+[1/2] Building C object CMakeFiles/cmTC_95b8b.dir/src.c.obj
+[2/2] Linking C executable cmTC_95b8b
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_no_pie succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_2f2eb"
+[1/2] Building C object CMakeFiles/cmTC_2f2eb.dir/src.c.obj
+[2/2] Linking C executable cmTC_2f2eb
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_4e7fd"
+[1/2] Building C object CMakeFiles/cmTC_4e7fd.dir/src.c.obj
+[2/2] Linking C executable cmTC_4e7fd
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_6dd00"
+[1/2] Building C object CMakeFiles/cmTC_6dd00.dir/src.c.obj
+[2/2] Linking C executable cmTC_6dd00
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_81879"
+[1/2] Building C object CMakeFiles/cmTC_81879.dir/src.c.obj
+[2/2] Linking C executable cmTC_81879
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_strict_overflow_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_1cf20"
+[1/2] Building C object CMakeFiles/cmTC_1cf20.dir/src.c.obj
+[2/2] Linking C executable cmTC_1cf20
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_pointer_sign_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_12106"
+[1/2] Building C object CMakeFiles/cmTC_12106.dir/src.c.obj
+[2/2] Linking C executable cmTC_12106
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_unused_but_set_variable_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c59e9"
+[1/2] Building C object CMakeFiles/cmTC_c59e9.dir/src.c.obj
+[2/2] Linking C executable cmTC_c59e9
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_383d6"
+[1/2] Building C object CMakeFiles/cmTC_383d6.dir/src.c.obj
+[2/2] Linking C executable cmTC_383d6
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_ebc45"
+[1/2] Building C object CMakeFiles/cmTC_ebc45.dir/src.c.obj
+[2/2] Linking C executable cmTC_ebc45
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_c9e2f"
+[1/2] Building C object CMakeFiles/cmTC_c9e2f.dir/src.c.obj
+[2/2] Linking C executable cmTC_c9e2f
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__X succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_e0cb4"
+[1/2] Building C object CMakeFiles/cmTC_e0cb4.dir/src.c.obj
+[2/2] Linking C executable cmTC_e0cb4
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__N succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_9905d"
+[1/2] Building C object CMakeFiles/cmTC_9905d.dir/src.c.obj
+[2/2] Linking C executable cmTC_9905d
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___gc_sections succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_3c618"
+[1/2] Building C object CMakeFiles/cmTC_3c618.dir/src.c.obj
+[2/2] Linking C executable cmTC_3c618
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___build_id_none succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d014a"
+[1/2] Building C object CMakeFiles/cmTC_d014a.dir/src.c.obj
+[2/2] Linking C executable cmTC_d014a
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_10b4e"
+[1/2] Building C object CMakeFiles/cmTC_10b4e.dir/src.c.obj
+[2/2] Linking C executable cmTC_10b4e
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b0dd3"
+[1/2] Building C object CMakeFiles/cmTC_b0dd3.dir/src.c.obj
+[2/2] Linking C executable cmTC_b0dd3
+/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___print_memory_usage succeeded with the following output:
+Change Dir: /home/swap/zephyr/samples/hello_world/armbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_d2f03"
+[1/2] Building C object CMakeFiles/cmTC_d2f03.dir/src.c.obj
+[2/2] Linking C executable cmTC_d2f03
+Memory region         Used Size  Region Size  %age Used/home/swap/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
+
+
+Source file was:
+int main(void) { return 0; }

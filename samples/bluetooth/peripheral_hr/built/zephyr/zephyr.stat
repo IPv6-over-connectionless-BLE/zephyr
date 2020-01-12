@@ -1,0 +1,68 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0xe41
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          1049032 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         4
+  Size of section headers:           40 (bytes)
+  Number of section headers:         26
+  Section header string table index: 23
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] text              PROGBITS        00000000 0000b8 01483c 00 WAX  0   0  8
+  [ 2] .ARM.exidx        ARM_EXIDX       0001483c 0148f4 000008 00  AL  1   0  4
+  [ 3] devconfig         PROGBITS        00014844 0148fc 00006c 00  WA  0   0  4
+  [ 4] rodata            PROGBITS        000148b0 014968 0004f8 00   A  0   0  4
+  [ 5] bss               NOBITS          20000000 0156a8 0041d8 00  WA  0   0  8
+  [ 6] noinit            NOBITS          200041d8 0156a8 008710 00  WA  0   0  8
+  [ 7] datas             PROGBITS        2000c8e8 014e60 0006fc 00  WA  0   0  8
+  [ 8] initlevel         PROGBITS        2000cfe4 01555c 00006c 00  WA  0   0  4
+  [ 9] _k_timer_area     PROGBITS        2000d050 0155c8 000034 00  WA  0   0  4
+  [10] _k_sem_area       PROGBITS        2000d084 0155fc 000018 00  WA  0   0  4
+  [11] _k_queue_area     PROGBITS        2000d09c 015614 000010 00  WA  0   0  4
+  [12] _net_buf_pool_are PROGBITS        2000d0ac 015624 000080 00  WA  0   0  4
+  [13] .debug_info       PROGBITS        00000000 0156a4 069e9a 00      0   0  1
+  [14] .debug_abbrev     PROGBITS        00000000 07f53e 00ed1e 00      0   0  1
+  [15] .debug_aranges    PROGBITS        00000000 08e260 0022e8 00      0   0  8
+  [16] .debug_line       PROGBITS        00000000 090548 015e41 00      0   0  1
+  [17] .debug_str        PROGBITS        00000000 0a6389 00f25b 01  MS  0   0  1
+  [18] .comment          PROGBITS        00000000 0b55e4 000011 01  MS  0   0  1
+  [19] .ARM.attributes   ARM_ATTRIBUTES  00000000 0b55f5 000031 00      0   0  1
+  [20] .debug_loc        PROGBITS        00000000 0b5626 02c2a1 00      0   0  1
+  [21] .debug_ranges     PROGBITS        00000000 0e18c8 005bb0 00      0   0  8
+  [22] .debug_frame      PROGBITS        00000000 0e7478 006034 00      0   0  4
+  [23] .shstrtab         STRTAB          00000000 1000b7 000111 00      0   0  1
+  [24] .symtab           SYMTAB          00000000 0ed4ac 00c700 10     25 2351  4
+  [25] .strtab           STRTAB          00000000 0f9bac 00650b 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  y (noread), p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  EXIDX          0x0148f4 0x0001483c 0x0001483c 0x00008 0x00008 R   0x4
+  LOAD           0x0000b8 0x00000000 0x00000000 0x14da8 0x14da8 RWE 0x8
+  LOAD           0x014e60 0x2000c8e8 0x00014da8 0x00844 0x00844 RW  0x8
+  LOAD           0x0156a8 0x20000000 0x20000000 0x00000 0x0c8e8 RW  0x8
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     text .ARM.exidx devconfig rodata 
+   02     datas initlevel _k_timer_area _k_sem_area _k_queue_area _net_buf_pool_area 
+   03     bss noinit 

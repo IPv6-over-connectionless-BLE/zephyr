@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/conf.dir/conf.c.o CMakeFiles/conf.dir/zconf.tab.c.o  -o conf 
